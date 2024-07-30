@@ -8,3 +8,6 @@ a way to split cards or to double down.
 You start with a total of $75.00 and there is nothing to do except gamble it away
 
 You can increment you bet up or down by $5.00
+
+Of course you'll need a jdk to run this, If you find that it's not working or come apon any
+bugs please let me know!
