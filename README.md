@@ -1,18 +1,10 @@
-## Getting Started
+## BLACKJACK
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This is a little BlackJack game I made during the summer of 2024. 
 
-## Folder Structure
+It's just like a normal game of BlackJack with the exception that I have not yet implemented
+a way to split cards or to double down.
 
-The workspace contains two folders by default, where:
+You start with a total of $75.00 and there is nothing to do except gamble it away
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+You can increment you bet up or down by $5.00

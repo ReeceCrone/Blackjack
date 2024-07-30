@@ -100,7 +100,7 @@ public class Game {
                 }
                 
                 //draws the dealers hidden card if cards are to be dealt
-                if (!dealButton.isEnabled() && playerChips != 0) {
+                if (!dealButton.isEnabled()) {
                     Image hiddenCardImage = new ImageIcon(getClass().getResource("/images/1BACK.png")).getImage();
                     if (!stayButton.isEnabled()) { //if player stays show hidden card
                         Card card = dealerHand.get(0);
