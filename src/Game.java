@@ -81,6 +81,9 @@ public class Game {
                 Image rulesLabel = new ImageIcon(getClass().getResource("/images/thing.png")).getImage();
                 g.drawImage(rulesLabel, 150, 250, 450, 120, null);
 
+                if (playerChips == 0 && message == "None") {
+                    g.drawString("YOU'RE BROKE!", boardWidth/2 - 75, 720);
+                }
 
                 //draws all the chips
                 if (playerChips != 0) {
@@ -128,10 +131,6 @@ public class Game {
 
                 if (message != "None") {
                     g.drawString(message, boardWidth/2 - 75, 720);
-                }
-
-                if (playerChips == 0 && message == "None") {
-                    g.drawString("YOU'RE BROKE!", boardWidth/2 - 75, 720);
                 }
 
             } catch (Exception e) {
